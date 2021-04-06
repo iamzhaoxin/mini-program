@@ -37,9 +37,9 @@
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
-  "appid": "wx15cd1a52b1e47e3f",
   "projectname": "%E8%AE%B0%E8%B4%A6",
-  "libVersion": "2.14.1",
+  "libVersion": "2.0.4",
+  "appid": "wx15cd1a52b1e47e3f",
   "condition": {
     "search": {
       "list": []
