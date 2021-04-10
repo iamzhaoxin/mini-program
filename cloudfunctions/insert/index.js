@@ -9,12 +9,14 @@ const db = cloud.database()
 // 云函数入口函数
 exports.main = async (event, context) => {
   try {
-    await db.collection('test').add({
+    await db.collection('user').add({
       data:{
         money: event.money,
+        time: new Date(),
+        // type:event.type,
       }
     })
-    return event.money*2
+    return 0
   } catch (e) {
     console.log(e)
   }
